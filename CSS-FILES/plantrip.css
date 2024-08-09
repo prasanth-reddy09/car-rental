@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px
+}
+
+.plantrip{
+    margin-top:10rem;
+   
+}
+
+.titles{
+   text-align: center;
+}
+
+.titles .title{
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.titles .about{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin-top: 1rem;
+}
+
+
+
+.details{
+    display:grid;
+    /* background-color: lightblue; */
+    grid-template-columns:repeat(3 , 1fr);
+    margin:4rem 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media screen and (max-width:1105px)
+    {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    @media screen and (max-width:600px)
+    {
+        grid-template-columns:1fr;
+        margin:2rem 4rem;
+
+    }
+}
+
+.detail{
+    padding: 0.625rem 3.8rem;
+    @media screen and (max-width:1105px)
+    {
+        padding:0;
+    }
+
+    @media screen and (max-width:600px)
+
+    {
+        margin-top: 30px;
+    }
+
+    
+
+}
+
+.details .detail p:nth-child(2){
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom:0.625rem;
+}
+
+
+.details .detail p:nth-child(3){
+    font-family: "Rubik",sans-serif;
+    color:rgb(172,129,123);
+}

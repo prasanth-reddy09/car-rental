@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#selectcar 
+{
+    text-align: center;
+    margin:0 auto;
+    font-family: "Poopins",sans-serif;
+
+}
+
+#selectcar  h4{
+    font-family: "Rubik",sans-serif;
+    font-size:24px ;
+    margin-bottom: 10px;
+}
+
+#selectcar  h2{
+    font-family: "Poopins",sans-serif;
+    font-size:42px;
+    margin-bottom: 10px;
+}
+
+#selectcar  p{
+    font-family: "Rubik",sans-serif;
+    font-size:16px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    color:#79717F;
+}
+
+#cars{
+    display: flex;
+    padding:3rem;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+#carlist #list {
+ list-style-type: none;
+}
+
+#carlist #list li{
+ background-color: #E9E9E9;
+ padding:1.2rem 1.7rem;
+ margin-bottom: 10px;
+ width: 100%;
+ text-align: start;
+ font-weight: 600;
+ font-size: 20px;
+ transition: 0.3s ease;
+ cursor: pointer;
+}
+
+#carlist #list li:hover{
+  color:white;
+ background-color:#FF4D30;
+
+}
+
+
+
+
+
+#car img{
+    width:100%;
+    margin-top: 6rem;
+    overflow: hidden;
+}

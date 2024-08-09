@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Prasanth Reddy" content="Car Rental Application">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
+<link rel="icon" href="IMAGES/p1.png">
+    
+        <link rel="stylesheet" href="CSS-FILES/navbar.css">
+        <link rel="stylesheet" href="CSS-FILES/hero.css">
+        <link rel="stylesheet" href="CSS-FILES/bookcar.css">
+        <link rel="stylesheet" href="CSS-FILES/plantrip.css">
+        <link rel="stylesheet" href="CSS-FILES/cars.css">
+
+
+        <title>Car Rental</title>
+    </head>
+
+    <body>
+
+        <!--NavBar-->
+        <nav class="navbar">
+            <img src="IMAGES/logo/logo.png">
+
+            <ul class="menu">
+                <a href="#"><li class="menu_items">Home</li></a>
+                <a href="#"><li class="menu_items">About</li></a>
+                <a href="#"><li class="menu_items">Vehicle Models</li></a>
+                <a href="#"><li class="menu_items">Testimonials</li></a>
+                <a href="#"><li class="menu_items">Our Team</li></a>
+                <a href="#"><li class="menu_items">Contact</li></a>
+            </ul>
+          <div id="buttons">
+            <button id="signin">Sign In</button>
+            <button id="register">Register</button>
+        </div>
+
+        <div id="hamburger">
+            X
+        </div>
+
+        </nav>
+
+        <div id="hero">
+            <div id="about">
+                <p id="para">Plan your trip now</p>
+
+                <p>Save <span>big</span> with our car rental</p>
+
+                <p>Rent the car of your dreams. Unbeatable prices,
+                    unlimited miles.flexible pick-up options and much more</p>
+
+                <div id="hero_buttons">
+                    <button id="book_ride">
+                        <p>Book Ride <span>X</span></p>
+                        <!-- <img src="#"> -->
+                    </button>
+                    <button id="learn_more">
+                        <p>Learn More <span>X</span></p>
+                        <!-- <img src="#"> -->
+                    </button>
+                </div>
+            </div>
+
+
+            <div id="car">
+                <img src="IMAGES/hero/main-car.png">
+            </div>
+        </div>
+
+
+
+      <!-- Book Car-->
+
+        <div class="bookcar">
+            <h3>Book a car</h3>
+            <div class="slots">
+            <div class="slot">
+                <p class="about"><span>X</span> Select Your Car Type <b>*</b></p>
+                <select>
+                    <option>Select Your Car Type</option>
+                    <option>1233</option>
+                    <option>3342131</option>
+                </select>
+            </div>
+
+            <div class="slot">
+                <p class="about"><span>X</span> Pick-Up <b>*</b></p>
+                <select>
+                    <option>Select Pick up Location</option>
+                    <option>1233</option>
+                    <option>3342131</option>
+                </select>
+            </div>
+
+            <div class="slot">
+                <p class="about"><span>X</span> Drop-Of <b>*</b></p>
+                <select>
+                    <option>Select Drop off Locatiob</option>
+                    <option>1233</option>
+                    <option>3342131</option>
+                </select>
+            </div> 
+
+            <div class="slot">
+                <p class="about"><span>X</span> pick-up <b>*</b></p>
+                <input type="date" id="date">
+            </div>
+            
+
+            <div class="slot">
+                <p class="about"><span>X</span> Drop - of<b>*</b></p>
+                <input type="date" id="date">
+            </div>
+
+            <button class="search">Search</button>
+        </div>
+        </div>
+
+
+
+        <!--Plan Trip-->
+        <div class="plantrip">
+            <div class="titles">
+                <div class="title">Plan your trip now</div>
+                <div class="about">Quick & Easy car rental</div>
+            </div>
+
+            <div class="details">
+                <div class="detail">
+                    <img src="IMAGES/plan/icon1.png">
+                    <p>Select Car</p>
+                    <p>We offers a big range of vehicles for 
+                        all your driving needs. We have the
+                         perfect car to meet your needs</p>
+                </div>
+
+                <div class="detail">
+                    <img src="IMAGES/plan/icon2.png">
+                    <p>Contact Operator</p>
+                    <p>Our knowledgeable and friendly operators 
+                        are always ready to help with any 
+                        questions or concerns</p>
+                </div>
+
+                <div class="detail">
+                    <img src="IMAGES/plan/icon3.png">
+                    <p>Let's Drive</p>
+                    <p>Whether you're hitting the open road,
+                         we've got you covered with our wide 
+                         range of cars</p>
+                </div>
+            </div>
+        </div>
+
+        <section id="selectcar">
+            <h4>Vehicle Models</h4>
+            <h2>Our rental fleet</h2>
+            <p>Choose from a variety of our amazing vehicles 
+                to rent for your next adventure or business trip
+            </p>
+
+            <div id="cars">
+                <div id="carlist">
+                    <ul id="list">
+                        <li class="item">Audi A1 S-Line</li>
+                        <li class="item">VW Golg 6</li>
+                        <li class="item">Toyoto Camry</li>
+                        <li class="item">BMW 320 ModernLine</li>
+                        <li class="item">Mercedes-Benz GLK</li>
+                        <li class="item">VW Passat CC</li>
+                    </ul>
+                </div>
+
+                <div id="car">
+                    <img src="IMAGES/cars-big/benz.jpg">
+                </div>
+
+                <div id="carproperties">
+                        <p><span>$45</span>/ rent per day</p>
+                        <p><span>Model</span><span>Audi</span></p>
+                        <p><span>Mark</span><span>A1</span></p>
+                        <p><span>Year</span><span>2012</span></p>
+                        <p><span>Doors</span><span>4/5</span></p>
+                        <p><span>AC</span><span>Yes</span></p>
+                        <p><span>Fuel</span><span>Gasoline</span></p>
+                        <button>RESERVE NOW</button>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
